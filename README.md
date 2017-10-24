@@ -36,7 +36,7 @@ log_dest file /mosquitto/log/mosquitto.log
 ##Build
 Build the image:
 ```
-docker build -t eclipse-mosquitto:1.4.12 .
+docker build -t eclipse-mosquitto:1.4.14 .
 ```
 
 ##Run
