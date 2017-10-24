@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine
 MAINTAINER Vladislav Zverev <vladspbru@gmail.com>
 
 LABEL Description="Eclipse Mosquitto MQTT Broker"
