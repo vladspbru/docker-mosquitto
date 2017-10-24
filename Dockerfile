@@ -3,7 +3,7 @@ MAINTAINER Vladislav Zverev <vladspbru@gmail.com>
 
 LABEL Description="Eclipse Mosquitto MQTT Broker"
 
-RUN apk --no-cache add mosquitto=1.4.14-r1 mosquitto-clients=1.4.14-r1 && \
+RUN apk --no-cache add mosquitto=1.4.14-r1 && \
     mkdir -p /mosquitto/config /mosquitto/data /mosquitto/log && \
     cp /etc/mosquitto/mosquitto.conf /mosquitto/config && \
     chown -R mosquitto:mosquitto /mosquitto
