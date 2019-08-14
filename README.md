@@ -1,4 +1,4 @@
-#Eclipse Mosquitto v1.4.xx Docker Image
+#Eclipse Mosquitto Docker Image /last version from alpine/
 
 ##Mount Points
 
